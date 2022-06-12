@@ -1,5 +1,5 @@
 # Benchmarking-general-neural-network-potential-ANI-2x-on-aerosol-nucleation-molecular-clusters
-# Install:
+# Installation:
 no need to install, simply run the scripts by python *.py
 # Requirements:
 ASE: https://wiki.fysik.dtu.dk/ase/#
