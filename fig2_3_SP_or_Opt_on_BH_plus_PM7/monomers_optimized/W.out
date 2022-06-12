@@ -1,0 +1,169 @@
+ *******************************************************************************
+ ** Site#: 20203        For non-commercial use only    Version 18.305L 64BITS **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 18.305L, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web-site: HTTP://OpenMOPAC.net.          **
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Tue Dec 28 16:20:32 2021  *
+ *  PM7        - The PM7 Hamiltonian to be used
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY  7200.000 SECONDS
+ *******************************************************************************
+PM7
+ aaaa
+ sdfsd
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       O          0.00000000  *   0.00000000  *   0.11926200  *
+     2       H          0.00000000  *   0.76323900  *  -0.47704700  *
+     3       H          0.00000000  *  -0.76323900  *  -0.47704700  *
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1         O          0.0000      0.0000      0.1193
+     2         H          0.0000      0.7632     -0.4770
+     3         H          0.0000     -0.7632     -0.4770
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s00894-012-1667-x
+
+           Empirical Formula: H2 O  =     3 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C2v 
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 4
+
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    14.417 HEAT: -57.69597
+ CYCLE:     2 TIME:   0.004 TIME LEFT:  2.00D  GRAD.:     7.952 HEAT: -57.76849
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.179 HEAT: -57.79963
+
+     GRADIENT =  0.17915  IS LESS THAN CUTOFF =  1.00000
+
+
+
+ -------------------------------------------------------------------------------
+ PM7
+ aaaa
+ sdfsd
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (EF).     
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC2016 (Version: 18.305L)
+                                                       Tue Dec 28 16:20:32 2021
+
+
+
+
+          FINAL HEAT OF FORMATION =        -57.79963 KCAL/MOL =    -241.83365 KJ/MOL
+
+
+          TOTAL ENERGY            =       -322.67921 EV
+          ELECTRONIC ENERGY       =       -469.20048 EV  POINT GROUP:     C2v 
+          CORE-CORE REPULSION     =        146.52127 EV
+          COSMO AREA              =         42.43 SQUARE ANGSTROMS
+          COSMO VOLUME            =         25.18 CUBIC ANGSTROMS
+
+          GRADIENT NORM           =          0.17915 = 0.10343 PER ATOM
+          IONIZATION POTENTIAL    =         12.115371 EV
+          HOMO LUMO ENERGIES (EV) =        -12.115  4.050
+          NO. OF FILLED LEVELS    =          4
+          MOLECULAR WEIGHT        =         18.0152
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            H     3    H     2     1.51900
+            H     2    O     1     0.57936
+            H     2    H     3     0.00000
+
+
+          SCF CALCULATIONS        =          5
+ 
+          WALL-CLOCK TIME         =          0.027 SECONDS
+          COMPUTATION TIME        =          0.023 SECONDS
+
+
+
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       O          0.00000000  *  -0.00000324  *   0.11359774  *
+     2       H          0.00000000  *   0.75950733  *  -0.46576829  *
+     3       H          0.00000000  *  -0.75949441  *  -0.46575808  *
+
+                             CARTESIAN COORDINATES
+
+   1    O        0.000000000    -0.000003243     0.113597745
+   2    H        0.000000000     0.759507330    -0.465768287
+   3    H        0.000000000    -0.759494409    -0.465758085
+
+
+           Empirical Formula: H2 O  =     3 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C2v 
+
+
+                  EIGENVALUES  
+ -29.61811 -17.83702 -14.21843 -12.11537   4.04996   6.34970
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.   TYPE          CHARGE      No. of ELECS.   s-Pop       p-Pop       
+    1          O          -0.649142        6.6491     1.81337     4.83577
+    2          H           0.324573        0.6754     0.67543
+    3          H           0.324569        0.6754     0.67543
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.     0.000     0.000    -1.806     1.806
+ HYBRID        -0.000    -0.000    -0.323     0.323
+ SUM           -0.000     0.000    -2.130     2.130
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+     Atom    s        px        py        pz   
+    1  O   1.81337   2.00000   1.35068   1.48509
+    2  H   0.67543
+    3  H   0.67543
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.03 SECONDS
+
+ == MOPAC DONE ==
